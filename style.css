@@ -182,3 +182,12 @@ body {
     display: block;
     transition-duration: .3s;
 }
+@media only screen and (max-width: 900px) {
+    .container {
+        width: calc(50% - 6px);
+    }
+}
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
