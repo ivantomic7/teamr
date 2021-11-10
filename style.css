@@ -152,7 +152,6 @@ body {
     color: #aaa;
 }
 
-
 .container{
     width: calc(33% - 6px);
     overflow:hidden;
@@ -163,8 +162,9 @@ body {
     position:relative;
     float:left;
 }
+
 .img1{
-    width: 100%;
+    width: 99%;
     transition-duration: .3s;
     max-width: 100%;
     display:block;
